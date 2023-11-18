@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h3,
+h5 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+h5 {
+    font-size: 12px;
+}
+
+p,
+span {
+    color: hsl(224, 23%, 55%);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+span {
+    font-size: 12px;
+    position: absolute;
+    top: 35px;
+    left: 65px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #fff;
+    width: 80%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.banner-img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.order-summary {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+
+.annual-container,
+.btn-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.annual-bg {
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    position: relative;
+}
+
+.music-icon {
+    width: 35px;
+    height: 35px;
+    align-self: center;
+    padding: 15px;
+}
+
+.change-opt {
+    align-self: center;
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.change-opt:active {
+    color: hsl(237, 66%, 72%);
+    text-decoration: none;
+}
+
+button {
+    color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    font-size: 12px;
+    width: 100%;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    box-shadow: -1px 10px 30px 2px hsla(245, 75%, 52%, 0.452);
+    -webkit-box-shadow: -1px 10px 30px 2px hsl(245, 75%, 0.452);
+    -moz-box-shadow: -1px 10px 30px 2px hsl(245, 75%, 0.452);
+}
+
+button:active {
+    background-color: hsl(237, 66%, 72%);
+}
+
+.cancel-opt {
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.cancel-opt:active {
+    color: hsl(223, 47%, 23%);
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-image: url('images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        width: 30%;
+    }
+
+    .change-opt {
+        margin-left: 100px;
+    }
+}
